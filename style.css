@@ -1,0 +1,276 @@
+body {
+    
+    align-content: center; 
+  }
+#sub {
+  margin-right: 40px;
+  margin-left: 40px;  
+  padding-top: 10px;
+  font-family: rockwell;
+ align-content: center; 
+ font-size: 20px;
+  color: orange;
+  text-align: center;
+  
+}
+#logo {
+  margin-top:20px;
+}
+/* .subheading align-items-center {
+  align-content: center; 
+} */
+
+#mac-cost {
+  
+}
+#pasta-cost {
+  
+}
+#taco-cost {
+  
+}
+#enchilada-cost {
+  
+}
+#picture {
+  padding-left:40px;
+} 
+
+#item {
+  padding-bottom:30px;
+  font-family: rockwell;
+  text-align: left;
+}
+
+/* del {
+  margin-right: 60px;
+  margin-left: 60px;
+} */
+
+#subtotal {
+  margin-top:30px;
+  margin-left:30px;
+}
+#subtotal-cost {
+  margin-top:30px;
+  margin-left:30px;
+}
+
+#button_order {
+  margin-left:60px;
+  margin-top: 20px;
+  font-family: rockwell;
+  background-color: lightblue; 
+  border: 1px solid blue;
+  border-radius: 50px;
+  color: black;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+#button_clear {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-family: rockwell;
+  background-color: lightgrey; 
+  border: 1px solid grey;
+  border-radius: 50px;
+  color: black;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+#menu{
+  margin-top: 50px;
+  margin-bottom:10px;
+
+}
+#menu_first{
+
+  margin-top: 40px;
+}
+
+
+#plus-mac {
+  margin-left:1px;
+  --b: 1px; /* the thickness */
+  width: 20px; /* the size */
+  aspect-ratio: 1;
+  border: 1px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b), white 90deg, black 0) 
+    calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+    calc(50%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+  border-radius: 50%;
+}
+#plus-pasta {
+  margin-left:1px;
+  --b: 1px; /* the thickness */
+  width: 20px; /* the size */
+  aspect-ratio: 1;
+  border: 1px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b), white 90deg, black 0) 
+    calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+    calc(50%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+  border-radius: 50%;
+}
+#plus-tacos {
+  margin-left:1px;
+  --b: 1px; /* the thickness */
+  width: 20px; /* the size */
+  aspect-ratio: 1;
+  border: 1px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b), white 90deg, black 0) 
+    calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+    calc(50%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+  border-radius: 50%;
+}
+#plus-enchiladas {
+  margin-left:1px;
+  --b: 1px; /* the thickness */
+  width: 20px; /* the size */
+  aspect-ratio: 1;
+  border: 1px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b), white 90deg, black 0) 
+    calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+    calc(50%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+  border-radius: 50%;
+}
+#plus {
+  margin-left:1px;
+  --b: 1px; /* the thickness */
+  width: 20px; /* the size */
+  aspect-ratio: 1;
+  border: 1px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b), white 90deg, black 0) 
+    calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+    calc(50%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#num-order-mac{
+  margin-left:140px
+}
+#num-order-pasta{
+  margin-left:140px
+}
+#num-order-tacos{
+  margin-left:140px
+}
+#num-order-enchiladas{
+  margin-left:140px
+}
+#num_order{
+  margin-left:140px
+}
+
+#minus {
+  margin-left:147px;
+  --b: 1px; /* the thickness */
+  width: 20px; /* the size */
+  aspect-ratio: 1;
+  border: 1px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 0deg at var(--b) var(--b), black 90deg, white 0) 
+    calc(100% + var(--b)) calc(100% + var(--b))/
+    calc(110%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+  border-radius: 50%;
+}
+#minus-mac {
+  margin-left:147px;
+  --b: 1px; /* the thickness */
+  width: 20px; /* the size */
+  aspect-ratio: 1;
+  border: 1px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 0deg at var(--b) var(--b), black 90deg, white 0) 
+    calc(100% + var(--b)) calc(100% + var(--b))/
+    calc(110%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+  border-radius: 50%;
+}
+#minus-pasta {
+  margin-left:147px;
+  --b: 1px; /* the thickness */
+  width: 20px; /* the size */
+  aspect-ratio: 1;
+  border: 1px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 0deg at var(--b) var(--b), black 90deg, white 0) 
+    calc(100% + var(--b)) calc(100% + var(--b))/
+    calc(110%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+  border-radius: 50%;
+}
+#minus-tacos {
+  margin-left:147px;
+  --b: 1px; /* the thickness */
+  width: 20px; /* the size */
+  aspect-ratio: 1;
+  border: 1px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 0deg at var(--b) var(--b), black 90deg, white 0) 
+    calc(100% + var(--b)) calc(100% + var(--b))/
+    calc(110%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+  border-radius: 50%;
+}
+#minus-enchiladas {
+  margin-left:147px;
+  --b: 1px; /* the thickness */
+  width: 20px; /* the size */
+  aspect-ratio: 1;
+  border: 1px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 0deg at var(--b) var(--b), black 90deg, white 0) 
+    calc(100% + var(--b)) calc(100% + var(--b))/
+    calc(110%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+  border-radius: 50%;
+}
+
+ /* #circle::after {
+  content: " + ";
+  position: absolute;
+  display: block;
+  background-color: black;
+  height: 1px;
+  margin-top: -5px;
+  top: 50%;
+  left: 5px;
+  right: 5px;
+} */
+/*
+#circle::before {
+  content: " ";
+  position: absolute;
+  display: block;
+  background-color: black;
+  width: 1px;
+  margin-left: -5px;
+  left: 50%;
+  top: 5px;
+  bottom: 5px;
+} */
+/* 
+#food_container {
+  margin-top:10px;
+  margin-bottom:10px;
+  /* margin-left:70px;
+  margin-right:80px; */
